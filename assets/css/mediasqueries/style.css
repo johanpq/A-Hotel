@@ -2,11 +2,16 @@
 
 @media screen and (min-width: 740px) {
     body {
-        background-color: aqua;
+        background-color: rgba(0, 255, 255, 0.322);
     }
 
     header {
         background-size: auto;
+        height: 500px;
+    }
+
+    h1 {
+        font-size: 5.1em;
     }
 
     header > div {
@@ -15,10 +20,27 @@
         margin-top: 140px;
     }
 
+    header > div img {
+        display: block;
+        position: relative;
+        width: 400px;
+        height: 350px;
+        margin: -210px auto;
+        left: 150px;
+        border-radius: 10%;
+    }
+
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 1075px) {
     body {
-        background-color: beige;
+        background-color: black;
     }
+    
+     header > div img {
+        height: 450px;
+        width: 600px;
+        top: -85px;
+        border-radius: 30%;
+    } 
 }
