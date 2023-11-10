@@ -21,7 +21,7 @@ header {
 
 header > div {
     text-align: center;
-    margin-top: 150px;
+    margin: 150px 0px 0px 20px;
 }
 
 h1 {
