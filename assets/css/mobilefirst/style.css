@@ -14,15 +14,14 @@ body {
 header {
     background-image: url(../../images/Christmas.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 300px; /*Setting the height up in px it won't move, it'll be fixed*/
-    width: 100vw;
+    height: 1000px; /*Setting the height up in px it won't move, it'll be fixed*/
     overflow: hidden;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 header > div {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 h1 {
@@ -31,8 +30,15 @@ h1 {
     
 }
 
-header > div > button {
-    background-color: rgba(199, 114, 114, 0.699);
+header div p {
+    color: rgba(167, 113, 113, 0.466);
+    font-size: 1em;
+    margin-bottom: 10px;
+    line-height: 10px;
+}
+
+header > div > a > button {
+    background-color: rgba(199, 114, 114, 0.726);
     color: white;
     font-size: 1em;
     padding: 5px;
@@ -40,11 +46,14 @@ header > div > button {
     border: 1px solid rgba(0, 0, 0, 0.212);
     border-radius: 7px;
     box-shadow: 0px 0px 0px 0px white;
-
+    cursor: pointer;
 }
 
-header > div > button a {
-    cursor: pointer;
-    text-decoration: none;
-    color: white;
+header > div img {
+    display: block;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: relative;
+    margin: 9px auto 0px;
 }
