@@ -5,6 +5,16 @@
         background-color: aqua;
     }
 
+    header {
+        background-size: auto;
+    }
+
+    header > div {
+        text-align: left;
+        margin-left: 100px;
+        margin-top: 140px;
+    }
+
 }
 
 @media screen and (min-width: 960px) {
