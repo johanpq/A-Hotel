@@ -14,14 +14,14 @@ body {
 header {
     background-image: url(../../images/Christmas.png);
     background-repeat: no-repeat;
-    height: 1000px; /*Setting the height up in px it won't move, it'll be fixed*/
+    height: 750px; /*Setting the height up in px it won't move, it'll be fixed*/
     overflow: hidden;
     font-family: 'Times New Roman', Times, serif;
 }
 
 header > div {
     text-align: center;
-    margin: 150px 0px 0px 20px;
+    margin: 150px 0px 0px 40px;
 }
 
 h1 {
@@ -56,4 +56,33 @@ header > div img {
     border-radius: 50%;
     position: relative;
     margin: 9px auto 0px;
+}
+
+main {
+    height: 310px;
+}
+
+.main-container {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.images {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.primary-image, .secondary-image {
+    display: inline-flex;
+}
+
+ul {
+    margin: auto 35px;
+    font-size: 1.5em;
+    list-style: circle;
 }
