@@ -42,7 +42,7 @@
 /*----Desktop and ahead----*/
 @media screen and (min-width: 1075px) {
     body {
-        background-color: black;
+        background-color: rgba(245, 222, 179, 0.363);
     }
     
     .header-container {
@@ -56,4 +56,45 @@
         left: 200px;
         border-radius: 30%;
     } 
+
+    .main-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .primary-image {
+        display: block;
+    }
+
+    .images {
+        height: 400px;
+        width: 400px;
+    }
+
+    hr {
+        height: 300px;
+        width: 0%;
+        margin: auto;
+    }
+
+    ul {
+        color: rgba(255, 255, 255, 0.562);
+        font-size: 2.3em;
+        list-style: none;
+        text-align: center;
+    }
+
+    li {
+        text-align: center;
+    }
+
+    svg {
+        position: relative;
+        top: 15px;
+        height: 56px;
+        width: 56px;
+        margin-right: 15px;
+    }
 }
