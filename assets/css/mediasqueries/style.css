@@ -33,6 +33,11 @@
         border-radius: 40%;
     }
 
+    .images {
+        height: 300px;
+        width: 300px;
+    }
+
 }
 /*----Desktop and ahead----*/
 @media screen and (min-width: 1075px) {
