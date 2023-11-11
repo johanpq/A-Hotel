@@ -23,10 +23,12 @@
     header > div img {
         display: block;
         position: relative;
-        width: 400px;
         height: 350px;
-        margin: -210px auto;
-        left: 150px;
+        width: 60%;
+        /* width: 350px;
+        height: 350px; */
+        margin: -210px 0px 0px 350px;
+        /* left: 300px; */
         border-radius: 10%;
     }
 
