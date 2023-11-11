@@ -7,36 +7,29 @@
     box-sizing: border-box;
 }
 
-body {
-    height: 100vh;
-}
-
 header {
-    /* background-image: url(../../images/Christmas.png);
-    background-repeat: no-repeat;
-    background-position: top center; */
-    height: 750px; /*Setting the height up in px it won't move, it'll be fixed*/
-    overflow: hidden;
+    background-image: url(../../images/Christmas.png);
+    height: 360px;
     font-family: 'Times New Roman', Times, serif;
 }
 
 header > div {
     text-align: center;
-    margin: 150px 0px 0px 40px;
+    /* margin: 150px 0px 0px 40px; */
 }
 
 h1 {
     color: rgb(167, 113, 113);
-    font-size: 4.2rem;
+    /* font-size: 4.2rem; */
     
 }
 
-header div p {
+/* header div p {
     color: rgba(167, 113, 113, 0.466);
     font-size: 1em;
     margin-bottom: 10px;
     line-height: 10px;
-}
+} 
 
 header > div > a > button {
     background-color: rgba(199, 114, 114, 0.726);
@@ -87,21 +80,4 @@ ul {
     font-size: 1.5em;
     list-style: circle;
 }
-
-.gradient-background {
-    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
-    background-size: 180% 180%;
-    animation: gradient-animation 18s ease infinite;
-  }
-  
-  @keyframes gradient-animation {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
+*/
