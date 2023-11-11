@@ -9,7 +9,6 @@
 
 body {
     height: 100vh;
-    width: 100vw;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -61,7 +60,7 @@ header > div img {
 }
 
 main {
-    height: 310px;
+    height: 280px;
     margin-top: 200px;
 }
 
@@ -92,7 +91,20 @@ hr {
 }
 
 ul {
-    margin: auto 35px;
+    color: rgba(255, 255, 255, 0.562);
     font-size: 1.5em;
-    list-style: circle;
+    list-style: none;
+}
+
+li {
+    text-align: center;
+}
+
+svg {
+    position: relative;
+    top: 13px;
+    height: 40px;
+    width: 40px;
+    margin-right: 5px;
+    margin-left: 10px;
 }
