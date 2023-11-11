@@ -10,6 +10,7 @@
 body {
     height: 100vh;
     width: 100vw;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 header {
@@ -75,6 +76,7 @@ hr {
     align-items: flex-start;
     justify-content: flex-start;
     gap: 30px;
+    background-color:  rgb(167, 113, 113);
 }
 
 .images {
@@ -86,6 +88,7 @@ hr {
 
 .primary-image {
     display: inline-flex;
+    background-color: rgb(167, 113, 113);
 }
 
 ul {
