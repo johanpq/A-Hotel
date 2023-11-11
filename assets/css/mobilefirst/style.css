@@ -9,11 +9,13 @@
 
 body {
     height: 100vh;
+    width: 100vw;
 }
 
 header {
     background-image: url(../../images/Christmas.png);
     background-repeat: no-repeat;
+    background-position: top center;
     height: 750px; /*Setting the height up in px it won't move, it'll be fixed*/
     width: 100vw;
     overflow: hidden;
