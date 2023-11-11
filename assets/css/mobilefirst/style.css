@@ -16,12 +16,12 @@ header {
     background-image: url(../../images/Christmas.png);
     background-repeat: no-repeat;
     height: 550px;
-    overflow: hidden;
 }
 
 .header-container {
     position: absolute;
     margin: 150px 0px 0px 100px;
+    overflow: hidden;
 }
 
 h1 {
