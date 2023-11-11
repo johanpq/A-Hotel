@@ -7,15 +7,24 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100vh;
+    width: 100vw;
+}
+
 header {
-    background-image: url(../../images/Christmas.png);
-    height: 360px;
-    font-family: 'Times New Roman', Times, serif;
+   background-image: url(../../images/Christmas.png);
+   background-position: left top;
+   height: 100%;
+   width: 100%;
+   overflow: hidden;
+   font-family: 'Times New Roman', Times, serif;
 }
 
 header > div {
-    text-align: center;
-    /* margin: 150px 0px 0px 40px; */
+    position: absolute;
+    margin: 150px;
+    
 }
 
 h1 {
