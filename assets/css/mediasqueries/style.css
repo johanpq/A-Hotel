@@ -39,10 +39,15 @@
         background-color: black;
     }
     
-     header > div img {
+    .header-container {
+        overflow: visible;
+    }
+
+    header > div img {
         height: 450px;
-        width: 600px;
-        top: -85px;
+        width: 55%;
+        top: -75px;
+        left: 200px;
         border-radius: 30%;
     } 
 }
