@@ -24,12 +24,12 @@
         display: block;
         position: relative;
         height: 350px;
-        width: 60%;
+        width: 70%;
         /* width: 350px;
         height: 350px; */
         margin: -210px 0px 0px 350px;
         /* left: 300px; */
-        border-radius: 10%;
+        border-radius: 40%;
     }
 
 }
