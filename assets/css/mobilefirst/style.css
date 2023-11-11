@@ -15,7 +15,8 @@ html, body {
 header {
    background-image: url(../../images/Christmas.png);
    background-position: left top;
-   height: 100%;
+   background-repeat: no-repeat;
+   height: 750px;
    width: 100%;
    overflow: hidden;
    font-family: 'Times New Roman', Times, serif;
@@ -28,14 +29,14 @@ header > div {
 
 h1 {
     color: rgb(167, 113, 113);
-    /* font-size: 4.2rem; */
+     font-size: 3.2rem;
     
 }
 
- header div p {
+header div p {
     color: rgba(167, 113, 113, 0.466);
     font-size: 1em;
-    margin-bottom: 10px;
+    margin: 10px 0px;
     line-height: 10px;
 } 
 
@@ -56,11 +57,10 @@ header > div img {
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    position: relative;
-    margin: 9px auto 0px;
+    margin: 10px -20px;
 }
 
-main {
+/* main {
     height: 310px;
 }
 
@@ -87,4 +87,4 @@ ul {
     margin: auto 35px;
     font-size: 1.5em;
     list-style: circle;
-}
+} */
