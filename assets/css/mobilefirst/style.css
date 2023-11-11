@@ -83,7 +83,7 @@ hr {
     border-radius: 50%;
 }
 
-.primary-image, .secondary-image {
+.primary-image {
     display: inline-flex;
 }
 
