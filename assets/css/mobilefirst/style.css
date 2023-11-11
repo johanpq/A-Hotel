@@ -19,7 +19,7 @@ header {
 }
 
 .header-container {
-    position: fixed;
+    position: absolute;
     margin: 150px 0px 0px 100px
 }
 
@@ -51,14 +51,10 @@ header > div > a > button {
 }
 
 header > div img {
-    display: block;
     height: 110px;
     width: 110px;
     border-radius: 50%;
-    position: relative;
-    margin: auto;
-    top: -110px;
-    left: 130px;
+    margin: 12px 0px 0px 20px;
 }
 
 /* main {
