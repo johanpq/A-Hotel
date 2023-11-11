@@ -59,8 +59,13 @@ header > div img {
     margin: 40px 0px 0px 20px;
 }
 
-/* main {
+main {
     height: 310px;
+    margin-top: 200px;
+}
+
+hr {
+    width: 100%;
 }
 
 .main-container {
@@ -86,4 +91,4 @@ ul {
     margin: auto 35px;
     font-size: 1.5em;
     list-style: circle;
-} */
+}
