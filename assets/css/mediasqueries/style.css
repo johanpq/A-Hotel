@@ -57,11 +57,17 @@
         border-radius: 30%;
     } 
 
+    main {
+        height: 800px;
+        width: 100%;
+    }
+
     .main-container {
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
+        gap: 31px;
     }
 
     .testemual {
@@ -74,15 +80,15 @@
     }
 
     hr {
-        height: 300px;
+        height: 330px;
         width: 0%;
-        margin: auto;
     }
 
     ul {
         color: rgba(255, 255, 255, 0.562);
-        font-size: 2.3em;
+        font-size: 1.8em;
         list-style: none;
+        margin-left: 5px;
     }
 
     svg {
