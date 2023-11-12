@@ -2,10 +2,6 @@
 
 /*-----TABLET-----*/
 @media screen and (min-width: 740px) {
-    body {
-        
-    }
-
     header {
         background-size: auto;
         height: 500px;
@@ -31,6 +27,10 @@
         margin: -210px 0px 0px 350px;
         /* left: 300px; */
         border-radius: 40%;
+    }
+
+    main {
+        height: 1000px;
     }
 
     .images {
@@ -83,11 +83,6 @@
         color: rgba(255, 255, 255, 0.562);
         font-size: 2.3em;
         list-style: none;
-        text-align: center;
-    }
-
-    li {
-        text-align: center;
     }
 
     svg {
