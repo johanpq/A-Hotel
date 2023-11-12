@@ -93,10 +93,7 @@ ul {
     color: rgba(255, 255, 255, 0.562);
     font-size: 1.5em;
     list-style: none;
-}
-
-li {
-    text-align: center;
+    align-self: center;
 }
 
 svg {
