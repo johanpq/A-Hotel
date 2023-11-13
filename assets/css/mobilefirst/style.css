@@ -105,3 +105,43 @@ svg {
     margin-right: 5px;
     margin-left: 10px;
 }
+
+.about-hotel {
+    height: 500px;
+    /* background-color:  rgba(94, 60, 51, 0.932); */
+    background-color:  rgb(104, 71, 71);
+    margin-top: 200px;
+}
+
+.about-container {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-about {
+    height: 350px;
+    width: 98%;
+    border-radius: 30px;
+}
+
+.about-container > p {
+    color: rgba(255, 255, 255, 0.993);
+    font-size: 1.5em;
+    text-align: center;
+    margin: 30px 0px 20px 0px;
+}
+
+.about-button {
+    min-width: 110px;
+    padding: 10px;
+    font-size: 1em;
+    background-color: rgba(129, 102, 102, 0.493);
+    border: 1px solid rgba(0, 0, 0, 0.26);
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.281);
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
