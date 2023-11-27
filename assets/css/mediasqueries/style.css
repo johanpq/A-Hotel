@@ -38,7 +38,7 @@
         width: 300px;
     }
 
-    .image-about {
+    .image-about, .image-reservation {
         width: 75%;
     }
 
@@ -133,5 +133,27 @@
     .image-about {
         width: 50%;
         margin-left: 100px;
+    }
+
+    .reservation-container {
+        flex-direction: row;
+    }
+
+    .title-and-button-reservation {
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title-and-button-reservation > p {
+        font-size: 2.8em;
+        margin: 0px 20px 10px -20px;
+    }
+
+    .image-reservation {
+        width: 50%;
+        order: 1;
     }
 }
