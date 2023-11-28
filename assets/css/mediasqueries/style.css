@@ -39,12 +39,17 @@
     }
 
     .about-hotel, .reservation {
+        height: 100%;
         width: 100%;
     }
 
     .image-about, .image-reservation {
         width: 80%;
         margin-top: 20px;
+    }
+
+    .about-button, .reservation-button {
+        margin-bottom: 20px;
     }
 }
 /*----Desktop and ahead----*/
