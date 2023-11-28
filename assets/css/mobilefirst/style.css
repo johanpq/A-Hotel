@@ -76,7 +76,6 @@ hr {
     align-items: flex-start;
     justify-content: flex-start;
     gap: 10px;
-    padding: 10px;
 }
 
 .images {
@@ -108,7 +107,6 @@ svg {
 
 .about-hotel {
     height: 500px;
-    /* background-color:  rgba(94, 60, 51, 0.932); */
     background-color:  rgb(104, 71, 71);
     margin-top: 200px;
 }
@@ -123,7 +121,7 @@ svg {
 
 .image-about, .image-reservation {
     height: 350px;
-    width: 98%;
+    width: 100%;
     border-radius: 30px;
 }
 
@@ -150,7 +148,7 @@ svg {
     color: white;
     cursor: pointer;
     margin: auto;
-} 
+}  
 
 .reservation {
     height: 500px;
@@ -164,5 +162,9 @@ svg {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+} 
+
+footer {
+    background-color: rgba(0, 255, 255, 0.61);
 }
 
