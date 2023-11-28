@@ -112,21 +112,21 @@
         margin-right: 15px;
     }
 
-    .about-container {
+    /* .about-container {
         flex-direction: row;
         flex: 1;
-    }
+    } */
 
-    .about-container > p {
+    /* .about-container > p {
         display: block;
         position: relative;
         font-size: 2em;
         top: -50px;
         left: 20px;
         margin: auto;
-    }
+    } */
 
-    .title-and-navagation-container {
+    /* .title-and-navagation-container {
         display: flex;
         height: 100%;
         flex-direction: column;
@@ -137,14 +137,14 @@
     .title-and-navagation-container > p {
         margin-left: 20px;
         font-size: 1.8em;
-    }
+    } */
 
     .image-about {
         width: 50%;
-        margin-left: 100px;
+        /* margin-left: 100px; */
     }
 
-    .reservation-container {
+    /* .reservation-container {
         flex-direction: row;
     }
 
@@ -164,5 +164,5 @@
     .image-reservation {
         width: 50%;
         order: 1;
-    }
+    } */
 }
