@@ -30,7 +30,7 @@
     }
 
     main {
-        height: 1000px;
+        height: 945px;
     }
 
     .images {
@@ -38,10 +38,14 @@
         width: 300px;
     }
 
-    .image-about, .image-reservation {
-        width: 75%;
+    .about-hotel, .reservation {
+        width: 100%;
     }
 
+    .image-about, .image-reservation {
+        width: 80%;
+        margin-top: 20px;
+    }
 }
 /*----Desktop and ahead----*/
 @media screen and (min-width: 1075px) {
