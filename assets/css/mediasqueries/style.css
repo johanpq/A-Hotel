@@ -90,6 +90,7 @@
     .images {
         height: 400px;
         width: 400px;
+        margin-left: 5px;
     }
 
     hr {
@@ -171,4 +172,10 @@
     .about-button, .reservation-button {
         margin: 0px;
     }
+
+    footer > ul {
+        background-color: aqua;
+        list-style: none;
+    }
+
 }
