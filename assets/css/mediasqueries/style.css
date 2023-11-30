@@ -51,6 +51,10 @@
     .about-button, .reservation-button {
         margin-bottom: 20px;
     }
+
+    .flex-container > ul a:hover {
+        text-decoration: underline;
+    }
 }
 /*----Desktop and ahead----*/
 @media screen and (min-width: 1075px) {
@@ -173,9 +177,46 @@
         margin: 0px;
     }
 
-    footer > ul {
-        background-color: aqua;
-        list-style: none;
+    .flex-container > ul {
+        display: flex;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .flex-container hr {
+        height: 1em;
+    }
+
+    .flex-container > ul a:hover {
+        text-decoration: underline;
+        color: rgba(209, 56, 56, 0.589);
+        transition: color 0.4s;
+    }
+
+
+    .creater {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .creater > a {
+        font-size: 1em;
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.651);
+    }
+
+    .creater > a:hover {
+        text-decoration: underline;
+        color: black;
+        transition: color 0.2s;
+    }
+
+    .creater > hr {
+        display: inline;
+        margin: 10px;
     }
 
 }
