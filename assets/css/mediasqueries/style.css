@@ -196,12 +196,6 @@
         transition: color 0.4s;
     }
 
-
-    .creater {
-        margin-top: 50px;
-        text-align: center;
-    }
-
     .creater > a {
         font-size: 1em;
         text-decoration: none;
@@ -214,9 +208,5 @@
         transition: color 0.2s;
     }
 
-    .creater > hr {
-        display: inline;
-        margin: 10px;
-    }
 
 }
