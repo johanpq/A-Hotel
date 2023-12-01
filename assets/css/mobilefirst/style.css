@@ -10,10 +10,10 @@
 body {
     height: 100vh;
     font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(250, 205, 205, 0.589);
 }
 
 header {
-    background-color: aliceblue;
     background-image: url(../../images/Christmas.png);
     background-repeat: no-repeat;
     height: 550px;
@@ -178,6 +178,12 @@ svg {
     margin-left: 0px;
 }
 
+.flex-container > ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
 .flex-container > ul a {
     color: white;
     text-decoration: none;
@@ -194,4 +200,31 @@ svg {
 
 .flex-container > ul > li {
     font-size: 0.9em;
+}
+
+.creater {
+    display: block;
+    background-color:  rgba(167, 113, 113, 0.582);
+    text-align: center;
+    margin-top: 80px;
+}
+
+.creater > p {
+    color: rgba(245, 222, 179, 0.925);
+    margin-bottom: 5px;
+}
+
+.creater > p > strong {
+    color: black;
+}
+
+.creater > hr {
+    display: inline;
+}
+
+.creater > a {
+    color: rgba(245, 222, 179, 0.733);
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px;
 }
