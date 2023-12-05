@@ -67,10 +67,10 @@
     }
 
     header > div img {
-        height: 454px;
-        width: 100%;
-        top: -214px;
-        left: 489px;
+        height: 400px;
+        width: 66%;
+        top: -200px;
+        left: 300px;
         border-radius: 30%;
     }
 
@@ -167,7 +167,8 @@
 
     .image-about {
         width: 50%;
-        margin: 20px 0px 20px -20px;
+        /* margin: 20px 0px 20px -20px; */
+        margin: 20px 0px 20px 0px;
     }
 
     .reservation-container {
