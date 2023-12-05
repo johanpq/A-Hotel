@@ -130,6 +130,10 @@
         margin-left: 5px;
     }
 
+    ul > li {
+        margin-left: 10px;
+    }
+
     svg {
         position: relative;
         top: 15px;
