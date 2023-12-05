@@ -115,7 +115,7 @@
         display: block;
         height: 400px;
         width: 400px;
-        margin: auto;
+        margin-left: 5px;
     }
 
     hr {
