@@ -69,14 +69,14 @@
     header > div img {
         height: 400px;
         width: 66%;
-        top: -200px;
+        top: -130px;
         left: 300px;
         border-radius: 30%;
     }
 
 
     h1 {
-        font-size: 12.1em;
+        font-size: 8.1em;
         position: relative;
     }
 
@@ -152,8 +152,7 @@
         position: relative;
         font-size: 2em;
         top: -50px;
-        left: 20
-        px;
+        left: 20px;
         margin: auto;
     } 
 
