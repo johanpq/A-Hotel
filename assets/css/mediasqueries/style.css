@@ -29,6 +29,15 @@
         border-radius: 40%;
     }
 
+    header > div > a > button:hover {
+        background-color: rgb(212, 123, 117);
+        transition: background-color 0.3s;
+    }
+
+    header > div > a > button:active {
+        background-color: rgba(34, 36, 37, 0.274);
+    }
+
     main {
         height: 945px;
     }
@@ -50,6 +59,15 @@
 
     .about-button, .reservation-button {
         margin-bottom: 20px;
+    }
+
+    .about-button:hover, .reservation-button:hover {
+        background-color: rgba(190, 24, 24, 0.493);
+        transition: background-color 0.3s;
+    }
+
+    .about-button:active, .reservation-button:active {
+        background-color: rgba(150, 31, 31, 0.493);
     }
 
     .flex-container > ul a:hover {
