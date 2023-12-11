@@ -1,6 +1,6 @@
 # Landing Page do Hotel
 
-Bem-vindo à Landing Page do Hotel, um projeto desenvolvido para criar uma apresentação atraente e responsiva para um hotel genérico. Esta página é projetada para fornecer informações essenciais sobre o hotel e incentivar os visitantes a explorar mais.
+Bem-vindo à Landing Page do Hotel, um projeto desenvolvido para criar uma apresentação atraente e responsiva para um hotel genérico. Esta página é projetada para fornecer informações sobre o hotel e incentivar os visitantes a explorar mais.
 
 ## Demonstração
 
