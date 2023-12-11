@@ -4,7 +4,7 @@ Bem-vindo à Landing Page do Hotel, um projeto desenvolvido para criar uma apres
 
 ## Demonstração
 
-![Descrição da imagem](hotel.png)
+![Imagem do Header do hotel](hotel.png)
 
 ## Tecnologias Utilizadas
 
@@ -21,7 +21,7 @@ Bem-vindo à Landing Page do Hotel, um projeto desenvolvido para criar uma apres
 
 ## Como Utilizar
 
-1. Clone este repositório: `git clone https://github.com/seu-usuario/seu-repositorio.git`
+1. Clone este repositório: `git clone https://github.com/johanpq/A-Hotel.git`
 2. Abra o arquivo `index.html` em seu navegador web.
 
 ## Demonstração Online
